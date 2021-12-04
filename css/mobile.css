@@ -1,0 +1,31 @@
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 0.7rem;
+}
+
+.skill-row{
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.skill-row div{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skill-row img{
+    margin: 0 auto;
+}

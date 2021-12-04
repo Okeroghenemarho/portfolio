@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover{
+    color: red;
+}
+
+.btn{
+    background-color: gray;
+    margin: 10px 15px;
+    border: none;
+}
+
+.container{
+        overflow: hidden;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 2rem;
+}
+
+.py-2{
+    padding: 2rem 0;
+}
+
+.py-3{
+    padding: 3rem 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+header{
+    background-color: #e6e6e6;
+    text-align: center;
+    padding-top: 100px
+}
+ .lead{
+     font-size: 25px;
+     color: #119998;
+ }
+
+ header img{
+     display: block;
+ }
+
+ #cloud1{
+    position: relative;
+    float: right;
+ }
+ 
+ #mountain{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+ }
+ 
+ .book{
+     max-width: 100%;
+     height: auto;
+ }
+
+ #picture{
+     height: 300px;
+     width: 300px;
+     margin: 1rem auto 2rem;
+     background: url(../image/mypicture.jpg.jpeg) no-repeat top center/cover;
+     border-radius: 50%;
+ }
+ 
+ header h1{
+    margin-top: 50px; 
+    font-size: 4rem;
+    color: #66bfbf;
+ }
+
+ h2{
+     font-size: 3rem;
+     color: #119998;
+ }
+
+ h3{
+     font-size: 2rem;
+     color: #66bfbf;
+ }
+
+#intro p{
+    width: 75%;
+    margin: auto;
+}
+
+.skill-row img{
+    width: 20%;
+}
+
+.skill-row div{
+    width: 75%;
+    text-align: left;
+}
+
+.skill-row{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skill-row:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.btn{
+    display: inline-block;
+    border: none;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    background-color: #119998;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #66bfbf;
+    color: #fff;
+}
+
+footer{
+    background-color: #66bfbf;
+    color: #fff;
+}
+
+footer a{
+    padding: 10px 20px;
+    color: #119998
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+small{
+    display: block;
+    padding-top: 20px;
+}
+
+.bottom-line{
+    width: 5rem;
+    margin: auto;
+    border-bottom: dotted 9px gray;
+}
+
+
+
